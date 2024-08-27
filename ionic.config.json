@@ -1,0 +1,7 @@
+{
+  "name": "AppMmq",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
