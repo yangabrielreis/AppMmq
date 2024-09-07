@@ -19,6 +19,14 @@ const routes: Routes = [
   {
     path: 'register',
     loadChildren: () => import('./pages/register/register.module').then( m => m.RegisterPageModule)
+  },
+  {
+    path: 'aval-tecnicas',
+    loadChildren: () => import('./pages/aval-tecnicas/aval-tecnicas.module').then( m => m.AvalTecnicasPageModule)
+  },
+  {
+    path: 'aval-tec-aovivo',
+    loadChildren: () => import('./pages/aval-tec-aovivo/aval-tec-aovivo.module').then( m => m.AvalTecAovivoPageModule)
   }
 ];
 
